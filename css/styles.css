@@ -108,7 +108,7 @@ body {
 
 .features li {
     display: table-cell;
-    width: 25%;
+    width: 20%;
 }
 
 .plans h2 {
@@ -126,14 +126,16 @@ body {
 
 .box {
     padding-top: 16px;
-    border: 1px solid rgb(165, 101, 207);
-    width: 250px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     margin: 0;
     text-align: center;
     font-size: 20px;
-    border-bottom: 4px solid rgb(51, 51, 51);
     display: inline-block;
     margin: 10px;
+}
+
+.features.box {
+    width: 250px;
 }
 
 .box ul {
@@ -147,15 +149,47 @@ body {
 }
 
 .box-button {
-    background-color: rgb(165, 101, 207);
+    background-color: #8343f9;
     color: #fff;
     margin: 0;
     padding: 16px 0;
     font-weight: 700;
     transition: all .3s;
     cursor: pointer;
+    border-bottom: 4px solid #6936C7;
+    transition: all 200ms;
 }
 
 .box-button:hover {
     background-color: rgb(216, 37, 207);
+    transform: translate(0, -5px);
+    border-color: #A61C9F;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.testimonials {
+    padding: 10%;
+}
+
+.testimonials ul {
+    display: table;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.testimonials li {
+    display: table-cell;
+    width: 20%;
+}
+
+.testimonials h2 {
+    text-align: center;
+}
+
+.testimonials .box {
+    padding: 16px;
+    width: 400px;
+    font-size: 14px;
+    text-align: left;
 }
