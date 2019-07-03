@@ -10,15 +10,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <script type="text/javascript">
-        // Makes nav bar change color on scroll
-        $(function () {
-        $(document).scroll(function () {
-        var $nav = $(".navbar");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > 2);
-        });
-        });
-    </script>
+    <script type="text/javascript" src="js/scroll.js"></script>
 </head>
     <div class="navbar">
         <a href="/index.html"><img src="/img/flashnodelogo.svg"></a>
@@ -35,11 +27,42 @@
             <li><a class="button" href="/faq.html">Learn More</a></li>
         </ul>
     </div>
-    <div class="landing">
-        <h1>Welcome to the home of beautiful cloud computing solutions.</h1>
+    <div class="features">
         <ul>
-            <li><a class="button" href="#plans">Get Started</a></li>
-            <li><a class="button" href="/faq.html">Learn More</a></li>
+            <li><h3>24/7 Support</h3><p>Our support team is always ready to answer your questions.</p></li>
+            <li><h3>DDOS Protection</h3>We stop 100% of DDOS attacks so your site will never be taken down by attackers.</li>
+            <li><h3>99% Uptime</h3>Our servers are up 99% of the time, so you'll never lose time working with us!</li>
+            <li><h3>Instant Setup</h3>We make it easy to start a new service. Your new website is just a few clicks away!</li>
+        </ul>
+    </div>
+    <div class="plans">
+        <h2>Our plans</h2>
+        <ul>
+        <li><div class="box">
+            From $1 a month
+            <h3>Web Hosting</h3>
+            <ul>
+            <li>10+ GB disk space</li>
+            <li>50+ GB bandwidth</li>
+            <li>1+ domains</li>
+            <li>Unlimited email accounts</li>
+            <li>5+ databases</li>
+            <li>5+ FTP accounts</li>
+            <li>24/7 support</li>
+            </ul>
+            <div class="box-button">View Plans</div>
+        </div></li>
+        <li><div class="box">From $4 a month <br><h3>Reseller Hosting</h3>
+        <ul>
+            <li>80+ GB of disk space</li>
+                <li>Unlimited bandwidth</li>
+                <li>Unlimited client Accounts</li>
+                <li>Unlimited email accounts</li>
+                <li>cPanel</li>
+                <li>24/7 Support</li>
+            </ul>
+            <div class="box-button">View Plans</div>
+        </div></li>
         </ul>
     </div>
 <body>
