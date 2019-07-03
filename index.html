@@ -10,12 +10,12 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <script language="javascript">
+    <script type="text/javascript">
         // Makes nav bar change color on scroll
         $(function () {
         $(document).scroll(function () {
         var $nav = $(".navbar");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 2);
         });
         });
     </script>
@@ -28,15 +28,20 @@
         </ul>
     </div>
     
-    <main>
-        <div class="landing">
-            <h1>Welcome to the home of beautiful cloud computing solutions.</h1>
-            <ul>
-                <li><a class="button" href="#plans">Get Started</a></li>
-                <li><a class="button" href="/faq.html">Learn More</a></li>
-            </ul>
-        </div>
-    </main>
+    <div class="landing">
+        <h1>Welcome to the home of beautiful cloud computing solutions.</h1>
+        <ul>
+            <li><a class="button" href="#plans">Get Started</a></li>
+            <li><a class="button" href="/faq.html">Learn More</a></li>
+        </ul>
+    </div>
+    <div class="landing">
+        <h1>Welcome to the home of beautiful cloud computing solutions.</h1>
+        <ul>
+            <li><a class="button" href="#plans">Get Started</a></li>
+            <li><a class="button" href="/faq.html">Learn More</a></li>
+        </ul>
+    </div>
 <body>
 </body>
 </html>
