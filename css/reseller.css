@@ -90,6 +90,11 @@ body {
     background-color: #fdfaff;
 }
 
+.plans p {
+    width: 400px;
+    margin: auto;
+}
+
 .plans h2 {
     text-align: center;
 }
@@ -238,4 +243,9 @@ body {
 .footer li a:hover 
 {
     color:rgb(165, 101, 207);
+}
+
+.white {
+    background-color:white;
+    padding: 5%;
 }
