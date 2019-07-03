@@ -96,7 +96,7 @@ body {
 }
 
 .features {
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .features ul {
@@ -104,13 +104,23 @@ body {
     list-style-type: none;
     width: 100%;
     padding: 0;
+    margin-bottom: 40px;
 }
+
 
 .features li {
     display: table-cell;
     width: 20%;
 }
 
+.features img {
+    width: 40px;
+}
+
+.plans {
+    padding: 5%;
+    background-color: #fdfaff;
+}
 .plans h2 {
     text-align: center;
 }
@@ -132,6 +142,7 @@ body {
     font-size: 20px;
     display: inline-block;
     margin: 10px;
+    background-color: white;
 }
 
 .features.box {
@@ -139,6 +150,7 @@ body {
 }
 
 .box ul {
+    margin: 8px;
     text-align: left;
     list-style-type: disc;
     margin-bottom: 16px;
