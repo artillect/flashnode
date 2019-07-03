@@ -6,12 +6,13 @@ body {
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0% 15%;
     z-index: 99;
+    color: white;
 }
 
 .navbar ul {
@@ -29,7 +30,7 @@ body {
 .navbar li a {
     padding: 16px 8px;
     text-decoration: none;
-    color: #8343f9;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     height: 34px;
@@ -52,6 +53,10 @@ body {
 .navbar.scrolled {
     background-color: #fff !important;
     transition: background-color 200ms linear;
+}
+
+.navbar.scrolled a {
+    color: #8343f9;
 }
 
 .landing {
@@ -134,25 +139,26 @@ body {
     text-align: center;
 }
 
-.plans ul {
+.plans > ul {
     list-style-type: none;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.plans li {
-    display: inline;
+.plans ul > li {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    position: relative;
 }
+
 
 .plans h4 {
     display: inline;
     font-size: 24px;
     line-height: 24px;
-}
-
-.best {
-    padding-top: 32px !important;
-    height: 285px;
-   top: -20px;
 }
 
 .ribbon {
@@ -169,40 +175,43 @@ body {
 }
 
 .box {
+    width: 90%;
     border-radius: 3px;
     position: relative;
     padding-top: 16px;
-    padding-bottom: 60px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     margin: 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     display: inline-block;
     margin: 10px;
     background-color: white;
 }
-
-.features.box {
-    width: 250px;
+.best {
+    padding-top: 32px !important;
+    height: 285px;
 }
+
+.box li {
+    list-style-type: disc;
+    display: list-item !important;
+    width: auto !important;
+}
+
 
 .box ul {
     margin: 8px;
     text-align: left;
     list-style-type: disc;
     margin-bottom: 16px;
-}
-
-.box li {
-    display: list-item;
+    padding-left: 16px;
 }
 
 .box-button {
-    position: absolute;
-    width: 100%;
+    width: 270px;
+    margin: auto;
     background-color: #8343f9;
     color: #fff;
-    margin: 0;
     padding: 16px 0;
     font-weight: 700;
     transition: all .3s;
