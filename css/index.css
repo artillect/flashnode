@@ -64,9 +64,19 @@ body {
     background-color: #8343f9;
 }
 
+.small {
+    padding: 5%;
+    background-color: #f9436c
+}
+
 .landing h1 {
     text-align: center;
     font-size: 45px;
+    color: #fff;
+}
+
+.landing h2, .landing h3 {
+    text-align: center;
     color: #fff;
 }
 
@@ -186,7 +196,9 @@ body {
     display: inline-block;
     margin: 10px;
     background-color: white;
+    padding-bottom: 16px;
 }
+
 .best {
     padding-top: 32px !important;
     height: 285px;
@@ -196,15 +208,15 @@ body {
     list-style-type: disc;
     display: list-item !important;
     width: auto !important;
+    margin: 4px;
 }
-
 
 .box ul {
     margin: 8px;
     text-align: left;
     list-style-type: disc;
     margin-bottom: 16px;
-    padding-left: 16px;
+    padding-left: 32px;
 }
 
 .box-button {
