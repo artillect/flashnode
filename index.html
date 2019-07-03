@@ -1,1 +1,38 @@
-<p> testing </p>
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Flashnode Web Hosting</title>
+    <meta name="description" content="Flashnode Web Hosting">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script language="javascript">
+        // Makes nav bar change color on scroll
+        $(function () {
+        $(document).scroll(function () {
+        var $nav = $(".navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
+        });
+        });
+    </script>
+</head>
+    <div class="navbar">
+        <a href="/index.html"><img src="/img/flashnodelogo.svg"></a>
+        <ul>
+            <li><a href="/website.html">Web Hosting</a></li>
+            <li><a href="/reseller.html">Reseller Hosting</a></li>
+        </ul>
+    </div>
+    
+    <main>
+        <div class="landing">
+            <h1>Welcome to the home of beautiful cloud computing solutions.</h1>
+        </div>
+    </main>
+<body>
+</body>
+</html>
