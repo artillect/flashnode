@@ -93,6 +93,7 @@ body {
 .plans p {
     width: 400px;
     margin: auto;
+    text-align: left;
 }
 
 .plans h2 {
@@ -110,10 +111,16 @@ body {
 .plans ul > li {
     display: inline-block;
     height: auto;
-    width: 300px;
     position: relative;
+    width: 50%;
+    margin: 10px;
 }
 
+.plans img {
+    display: block;
+    width: 40px;
+    margin: auto;
+}
 
 .plans h4 {
     display: inline;
