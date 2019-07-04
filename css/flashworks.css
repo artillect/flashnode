@@ -171,20 +171,20 @@ body {
 }
 
 .design {
-    background-color: #f9436c;
+    background-color: #45A667;
     color: #fff;
 }
 
 .design .button:hover {
-    color: #f9436c;
+    color: #45A667;
 }
 
 .setup {
-    background-color: #2D80D6;
+    background-color: #E5F040;
     color: #fff;
 }
 .setup .button:hover {
-    color: #2D80D6;
+    color: #E5F040;
 }
 
 .plans h4 {
