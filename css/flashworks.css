@@ -173,6 +173,7 @@ body {
 .design {
     background-color: #45A667;
     color: #fff;
+    background-image: url(../img/memphis-mini.png);
 }
 
 .design .button:hover {
@@ -180,11 +181,12 @@ body {
 }
 
 .setup {
-    background-color: #E5F040;
+    background-color: #F3852B;
     color: #fff;
+    background-image: url(../img/positive.png);
 }
 .setup .button:hover {
-    color: #E5F040;
+    color: #F3852B  ;
 }
 
 .plans h4 {
