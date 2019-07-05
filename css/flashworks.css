@@ -39,6 +39,10 @@ body {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+}
+
 .button {
     color: white;
     padding: 15px;
@@ -61,6 +65,12 @@ body {
     transition: background-color 200ms ease-in;
 }
 
+.features p {
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+}
+
 .features {
     padding: 5% 10%;
 }
@@ -70,9 +80,10 @@ body {
     list-style-type: none;
     width: 100%;
     padding: 0;
+    margin: auto;
     margin-bottom: 40px;
-}
 
+}
 
 .features li {
     display: table-cell;

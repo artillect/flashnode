@@ -86,6 +86,10 @@ fieldset {
     border: none;
 }
 
+select {
+    padding: 16px;
+}
+
 .white {
     background-color:white;
     padding: 5%;

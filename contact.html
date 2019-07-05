@@ -38,6 +38,14 @@
             <input type="text" name="name" id="full-name" placeholder="John Smith" required="">
             <label for="email-address">Email Address</label>
             <input type="email" name="_replyto" id="email-address" placeholder="johnsmith@website.com" required="">
+            <label for="inquiry">What can we help you with?</label>
+              <select name="inquiry-type" id="inquiry-type" required="">
+                <option value="Choose" selected="" disabled="">Choose</option>
+                <option value="1">Support</option>
+                <option value="3">Web Design</option>
+                <option value="5">Setup</option>
+                <option value="9">Other</option>
+              </select>
             <label for="message">Message</label>
             <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required="" style="width: 100%; padding: 16px;"></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
