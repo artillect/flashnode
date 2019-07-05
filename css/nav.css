@@ -1,0 +1,62 @@
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0% 15%;
+    z-index: 99;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+    margin: 0;
+    float: right;
+}
+.navbar a {
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    line-height: 72px;
+    font-size: 50px;
+        color: white;
+
+}
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    padding: 16px 8px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+        font-family:sans-serif;
+    font-size: 16px;
+}
+
+.navbar img {
+    height: 50px;
+    float: left; 
+    margin: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 0%;
+    }
+}
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled a {
+    color: #8343f9 !important;
+}
