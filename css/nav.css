@@ -40,17 +40,13 @@
     font-size: 16px;
 }
 
-.navbar img {
+.navbar #logo {
     height: 50px;
     float: left; 
     margin: 8px;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        padding: 0%;
-    }
-}
+
 
 .navbar.scrolled {
     background-color: #fff !important;
@@ -59,4 +55,61 @@
 
 .navbar.scrolled a {
     color: #8343f9 !important;
+}
+.navbar .icon, .navbar br {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 768px) {
+    .landing {
+        margin-top: 72px;
+    }
+    .navbar {
+        background-color: white;
+                padding: 0%;
+
+    }
+    .navbar span {
+        display: none;
+    }
+    .navbar a {
+        color: #8343f9 !important;
+    }
+  .navbar li:not(:nth-of-type(1)) {display: none;}
+    .navbar li {
+        float: right;
+        width: 100%;
+        height: 34px;
+        text-align: right;
+    }
+  .navbar .icon {
+    float: right;
+      clear: left;
+    display: block !important;
+  }
+    .navbar ul {
+        width: auto;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 768px) {
+  .navbar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+    .navbar.responsive {
+        height: 120px;
+    }
+  .navbar.responsive li {
+    float: none;
+    display: list-item;
+    text-align: left;
+  }
 }
