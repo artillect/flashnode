@@ -1,6 +1,6 @@
 $(function(){
-  $("#nav-placeholder").load("/flashnode/nav.html");
+  $("#nav-placeholder").load("https://artillect.github.io/flashnode/nav.html");
 });
 $(function(){
-  $("#footer-placeholder").load("/flashnode/footer.html");
+  $("#footer-placeholder").load("https://artillect.github.io/flashnode/footer.html");
 });
