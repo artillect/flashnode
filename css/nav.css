@@ -49,12 +49,12 @@
 
 
 .navbar.scrolled {
-    background-color: #fff !important;
+    background-color: #fff;
     transition: background-color 200ms linear;
 }
 
 .navbar.scrolled a {
-    color: #8343f9 !important;
+    color: #8343f9;
 }
 .navbar .icon, .navbar br {
   display: none;

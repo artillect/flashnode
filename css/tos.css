@@ -10,3 +10,12 @@ body {
     margin: auto;
     margin-top: 72px;
 }
+
+.navbar.scrolled {
+    background-color: #8343f9 !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled a {
+    color: #fff !important;
+}
