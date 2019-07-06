@@ -211,6 +211,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .landing li {
+        display: block;
+    }
     .testimonials li {
         display: block;
         width: 100%;
