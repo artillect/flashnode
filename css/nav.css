@@ -76,7 +76,6 @@ a {
     .navbar {
         background-color: white;
                 padding: 0%;    
-        text-align: center;
     }
     #nav-logo {
         float:none;
@@ -89,7 +88,8 @@ a {
     }
     
     .navbar a {
-        padding: 8px !important;
+        padding: 8px 0px 0px 8px !important;
+        padding-left: 8px !important;
         color: #8343f9 !important;
         line-height: 25px;
     }
@@ -100,7 +100,9 @@ a {
     
   .navbar li:not(:nth-of-type(1)) {display: none;}
     .navbar #logo {
+        position: absolute;
         float: none;
+        left: 50%;
     }
     .navbar li {
         float: left;
