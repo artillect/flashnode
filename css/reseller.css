@@ -150,3 +150,14 @@ body {
     background-color:white;
     padding: 5%;
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials li {
+        display: block;
+        width: 100%;
+    }
+    
+    .plans ul {
+        display: block;
+    }
+}

@@ -136,3 +136,14 @@ body {
     border-color: #C7361C;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
+
+@media screen and (max-width: 768px) {
+    .testimonials li {
+        display: block;
+        width: 100%;
+    }
+    
+    .plans ul {
+        display: block;
+    }
+}
