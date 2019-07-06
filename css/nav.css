@@ -75,13 +75,21 @@ a {
     }
     .navbar {
         background-color: white;
-                padding: 0%;
-
+                padding: 0%;    
+        text-align: center;
     }
-
+    #nav-logo {
+        float:none;
+        height: 50px;
+    }
     .navbar a {
         color: #8343f9 !important;
     }
+    
+    span {
+        display: none;
+    }
+    
   .navbar li:not(:nth-of-type(1)) {display: none;}
     .navbar li {
         float: right;
